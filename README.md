@@ -1,9 +1,9 @@
-#PIOVE DOMANI A ROMA?
+# PIOVE DOMANI A ROMA?
 liberamente ispirato da piovedomaniaroma.it
 lo script usa curl per contattare wttr.in e sapere la percentuale di precipitazioni.
 Se è maggiore di 0, piove.
 
-##Installazione
+## Installazione
 scarica la repo
 ```bash
 git clone https://github.com/Egarlaschi/piovedomaniaroma.git
@@ -39,5 +39,5 @@ su bash
 echo "alias pdr='~/.local/bin/pd.sh'" >> ~/.bashrc
 ```
 
-##Utilizzo
+## Utilizzo
 chiama l'alias (in questo caso il comando pdr) e basta. Ora scopri se domani piove (a Roma).
