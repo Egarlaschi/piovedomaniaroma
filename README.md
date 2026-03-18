@@ -30,12 +30,12 @@ imposta l'alias
 
 su zsh
 ```bash
-echo "alias pdr='~/.local/bin/pd.sh'" >> ~/.zshrc
+echo "alias pdr='~/.local/bin/piovedomani.sh'" >> ~/.zshrc
 ```
 
 su bash
 ```bash
-echo "alias pdr='~/.local/bin/pd.sh'" >> ~/.bashrc
+echo "alias pdr='~/.local/bin/piovedomani.sh'" >> ~/.bashrc
 ```
 
 ## Utilizzo
