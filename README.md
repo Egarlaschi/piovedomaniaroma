@@ -1,5 +1,5 @@
 # PIOVE DOMANI A ROMA?
-liberamente ispirato da piovedomaniaroma.it\n
+liberamente ispirato da piovedomaniaroma.it; 
 lo script usa curl per contattare il sito sovracitato per restituire un ASCII art di un si o un no.
 
 ## Installazione
