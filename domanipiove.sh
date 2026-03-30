@@ -44,7 +44,7 @@ fi
 ;;
 
 -w|--wttr)
-PERCPIOGGIA=$(curl -s "wttr.in/Rome?format=%p+tomorrow" | grep -oE '[0-9]+' | head -1)
+PERCPIOGGIA=$(curl -s "wttr.in/Roma?format=%p+tomorrow" | grep -oE '[0-9]+' | head -1)
 
 if [ -z "$CHANCE" ]; then
     CHANCE=0
