@@ -8,7 +8,7 @@ echo " "
 case $1 in
 
 "")
-if curl -sL -A "Mozilla/5.0" "https://www.piovedomaniaroma.it/" | grep -qi "si"; then
+if curl -sL -A "Mozilla/5.0" "https://www.piovedomaniaroma.it/" | grep -qi "? si"; then
 cat << "EOF"
   █████████   ███ 
  ███░░░░░███ ░░░  
@@ -36,7 +36,7 @@ fi
 ;;
 
 -t|--text)
-if curl -sL -A "Mozilla/5.0" "https://www.piovedomaniaroma.it/" | grep -qi "si"; then
+if curl -sL -A "Mozilla/5.0" "https://www.piovedomaniaroma.it/" | grep -qi "? si"; then
 echo "Si."
 else
 echo "No."
